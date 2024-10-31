@@ -1,0 +1,62 @@
+/* Estilo para el contenedor principal */
+.contenedor {
+    width: 320px;
+    margin: 50px auto;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f75454; /* Color pastel rosa claro */
+    background-image: url('fondo.jpg'); /* URL de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    text-align: center;
+}
+
+/* Estilo del título */
+h1 {
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para enlaces de navegación */
+.nav-links {
+    margin-bottom: 1.5rem;
+}
+
+.nav-links a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ff0000;
+}
+
+/* Estilo del input de texto */
+#input-text {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+/* Botón de generar QR */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* Contenedor del código QR */
+#contenedor {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

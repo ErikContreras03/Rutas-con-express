@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código QR</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Generrador de QR</h1>
+        <div class="nav-links">
+            <a href="/1">Volver a la calculadora</a>
+        </div>
+        <label for="input-text">Ingresa texto o un URL para generar el QR</label>
+        <input type="text" id="input-text" placeholder="Escriba aquí"/>
+        <button onclick="generar()">Generar QR</button>
+        <div id="contenedor"></div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+<script src="app2.js"></script>
+</html>

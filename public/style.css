@@ -1,0 +1,49 @@
+.calculadora {
+    width: 292px;
+    margin: 50px auto;
+    border: 2px solid black; 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f75454; /* Color pastel rosa claro */
+    background-image: url('fondo.jpg'); /* URL de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+/* Estilos para enlaces de navegación */
+.nav-links {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.nav-links a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ff0000;
+}
+
+input[type="button"] {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    height: 80px;
+    width: 275px;
+    margin: 5px;
+    font-size: 35px;
+}
